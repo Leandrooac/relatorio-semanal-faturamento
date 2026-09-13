@@ -10,7 +10,7 @@ O acompanhamento da carteira de faturamento (itens faturáveis, a faturar e pend
 
 | Arquivo | O que é |
 |---|---|
-| `Relatorio_Semanal_Faturamento.xlsx` | Relatório semanal operacional — planilha "mãe", alimentada toda semana com a base atualizada. |
+| `Relatorio_Semanal_Faturamento.xlsx` | Relatório semanal operacional, planilha "mãe", alimentada toda semana com a base atualizada. |
 | `Gerador_Apresentacao_Clientes.xlsx` | Gerador de apresentações comerciais: seleciona-se o cliente em uma lista e todas as abas se refazem automaticamente. |
 | `apresentacoes/` | Exemplos de apresentações já geradas (uma por cliente). |
 | `build_gerador.py`, `gerar_apresentacoes.py` | Scripts em Python (openpyxl) que constroem os arquivos acima a partir da base — usados para regenerar o gerador quando o layout muda. |
@@ -40,7 +40,7 @@ Planilha para montar, por cliente, o material de apresentação comercial, organ
 1. Colar a base semanal atualizada.
 2. Colar a extração de itens já nacionalizados/faturados por outra entidade do grupo.
 3. Colar o catálogo de itens (SKU, quantidade por unidade de embalagem).
-4. Selecionar o cliente em uma lista suspensa — todas as abas se refazem.
+4. Selecionar o cliente em uma lista suspensa, todas as abas se refazem.
 5. Revisar as abas geradas antes do envio.
 6. Para enviar: salvar uma cópia e remover as abas de dados internos antes de compartilhar externamente.
 
@@ -65,4 +65,4 @@ python3 gerar_apresentacoes.py  # gera os arquivos individuais em apresentacoes/
 
 ## Sobre os dados neste repositório
 
-Nenhum dado real de clientes, fornecedores, valores ou volumes está incluído. Nomes de clientes e fornecedores citados na operação original foram omitidos deste repositório por serem informação comercial confidencial. Os arquivos de trabalho reais (`.xlsx` e dados de entrada) **não estão incluídos neste repositório** — este README documenta a arquitetura e a lógica da solução, não o sistema operacional original, que é propriedade da empresa em que foi desenvolvido.
+Nenhum dado real de clientes, fornecedores, valores ou volumes está incluído. Nomes de clientes e fornecedores citados na operação original foram omitidos deste repositório por serem informação comercial confidencial. Os arquivos de trabalho reais (`.xlsx` e dados de entrada) **não estão incluídos neste repositório**, este README documenta a arquitetura e a lógica da solução, não o sistema operacional original, que é propriedade da empresa em que foi desenvolvido.
