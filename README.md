@@ -13,7 +13,7 @@ O acompanhamento da carteira de faturamento (itens faturáveis, a faturar e pend
 | `Relatorio_Semanal_Faturamento.xlsx` | Relatório semanal operacional, planilha "mãe", alimentada toda semana com a base atualizada. |
 | `Gerador_Apresentacao_Clientes.xlsx` | Gerador de apresentações comerciais: seleciona-se o cliente em uma lista e todas as abas se refazem automaticamente. |
 | `apresentacoes/` | Exemplos de apresentações já geradas (uma por cliente). |
-| `build_gerador.py`, `gerar_apresentacoes.py` | Scripts em Python (openpyxl) que constroem os arquivos acima a partir da base — usados para regenerar o gerador quando o layout muda. |
+| `build_gerador.py`, `gerar_apresentacoes.py` | Scripts em Python (openpyxl) que constroem os arquivos acima a partir da base, usados para regenerar o gerador quando o layout muda. |
 
 ## Relatorio_Semanal_Faturamento.xlsx
 
