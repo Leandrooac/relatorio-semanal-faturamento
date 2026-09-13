@@ -30,7 +30,7 @@ Planilha operacional com uma única fonte de dados (aba `BASE`) e múltiplas vis
 
 **Conceitos-chave:**
 - **Margem Bruta** = Receita (preço de venda), Preço FOB de compra. Não inclui frete, impostos, armazenagem ou despesas operacionais.
-- **Risco de Fornecedor** incide apenas sobre o saldo pendente, item já disponível ou em trânsito é tratado como "Normal", mesmo que o fornecedor esteja em situação de risco.
+- **Risco de Fornecedor** = incide apenas sobre o saldo pendente, item já disponível ou em trânsito é tratado como "Normal", mesmo que o fornecedor esteja em situação de risco.
 
 ## Gerador_Apresentacao_Clientes.xlsx
 
