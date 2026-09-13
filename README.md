@@ -29,8 +29,8 @@ Planilha operacional com uma única fonte de dados (aba `BASE`) e múltiplas vis
 - `INSTRUÇÕES` — passo a passo de atualização semanal.
 
 **Conceitos-chave:**
-- **Margem Bruta** = Receita (preço de venda) − Preço FOB de compra. Não inclui frete, impostos, armazenagem ou despesas operacionais.
-- **Risco de Fornecedor** incide apenas sobre o saldo pendente — item já disponível ou em trânsito é tratado como "Normal", mesmo que o fornecedor esteja em situação de risco.
+- **Margem Bruta** = Receita (preço de venda), Preço FOB de compra. Não inclui frete, impostos, armazenagem ou despesas operacionais.
+- **Risco de Fornecedor** incide apenas sobre o saldo pendente, item já disponível ou em trânsito é tratado como "Normal", mesmo que o fornecedor esteja em situação de risco.
 
 ## Gerador_Apresentacao_Clientes.xlsx
 
@@ -61,7 +61,7 @@ python3 gerar_apresentacoes.py  # gera os arquivos individuais em apresentacoes/
 ## Ferramentas
 
 - Microsoft Excel (fórmulas avançadas, estrutura de múltiplas abas interligadas)
-- Python (openpyxl) para automação da geração de arquivos — implementado com apoio de ferramentas de IA generativa, como parte do meu aprendizado atual da linguagem
+- Python (openpyxl) para automação da geração de arquivos, implementado com apoio de ferramentas de IA generativa, como parte do meu aprendizado atual da linguagem
 
 ## Sobre os dados neste repositório
 
